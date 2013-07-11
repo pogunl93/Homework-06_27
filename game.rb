@@ -56,6 +56,7 @@ second_input = gets.chomp.downcase
 		puts "You decided to explore the home and came accross a gruesome monster!! Do you attack or run away?"
 	elsif second_input == "leave"
 		puts "You have unknowingly averted danger and are better off than your peers. Hurray for your life!"
+	abort  
 	else 
 		puts "Please enter a valid option and try again!"
 	end
